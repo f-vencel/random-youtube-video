@@ -1,9 +1,15 @@
-<<<<<<< HEAD
-# random-youtube-video
-=======
-# vue-project
+# Generate random youtube videos
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
+
+A website to generate random youtube videos
+
+Resizable screen, fullscreen capabilities
+
+## Preview
+
+![preview-image](./src/assets/preview.png)
+
 
 ## Recommended IDE Setup
 
@@ -21,8 +27,14 @@ npm install
 
 ### Compile and Hot-Reload for Development
 
+#### frontend
 ```sh
-npm run dev
+npm run dev:frontend
+```
+
+#### backend
+```sh
+npm run dev:backend
 ```
 
 ### Compile and Minify for Production
@@ -30,4 +42,3 @@ npm run dev
 ```sh
 npm run build
 ```
->>>>>>> 419692e (first commit)
